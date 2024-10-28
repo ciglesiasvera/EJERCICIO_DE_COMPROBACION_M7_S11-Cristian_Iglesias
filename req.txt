@@ -1,0 +1,42 @@
+CUE: REVISANDO LAS APLICACIONES PREINSTALADAS
+
+REBOUND EXERCISE: APLICACIONES PREINSTALADAS DJANGO
+
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los videos del CUE:
+Revisando las Aplicaciones Preinstaladas.
+EJERCICIO:
+
+Partiendo del ejercicio creado en el Rebound y Drilling del CUE anterior, adecue el sitio administrativo 
+de Django con la finalidad de que muestre al usuario administrador el siguiente aspecto con relación a 
+las fábricas y lo productos.
+
+En las Fábricas:
+
+______________________________________________________________________________________
+Select fabrica to change                                             (ADD FABRICA +)
+        _______________
+Action: |-----        | GO  0 of 2 selected
+        ---------------
+
+  Nombre                                       Pais
+  COLGATE                                      COLOMBIA
+  P&G                                          CANADA
+
+
+  2 fabricas
+
+
+  También en los Productos:
+  ______________________________________________________________________________________
+  Select producto to change                                             (ADD PRODUCTO +)
+
+        _______________
+Action: |-----        | GO  0 of 2 selected                                             FILTER
+        ---------------                                                                 --> By nombre
+                                                                                         | By fabrica
+  NOMBRE              DESCRIPCION                  COSTO       F VENCIMIENTO   FABRICA   All
+  Downy aroma floral  Ambientador de aroma floral  Costo Alto  May 22, 2025    P&G       COLGATE
+  Crest premium       Crema dental                 Costo Bajo  Nov. 1, 2024    P&G       P&G
+                                                                                         -
+  1 2 3 4   8 productos  Show all   
+
